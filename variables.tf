@@ -13,7 +13,7 @@ variable "location" {
 
 variable "servercount" {
   description = "number of servers to create"
-  default = "2"
+  default = "3"
 }
 
 variable "createoption" {
