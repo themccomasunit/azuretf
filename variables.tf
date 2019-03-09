@@ -22,7 +22,7 @@ variable "createoption" {
   default = "FromImage"
 }
 
-variable "ip_private_train" {
+variable "ip_private_myvms" {
   description = ""
 
   default = {
