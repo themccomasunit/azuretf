@@ -7,13 +7,13 @@ variable "environment" {
 
 variable "location" {
     type = "string"
-    default = "East Us"
+    default = "Central Us"
 }
 
 
 variable "servercount" {
   description = "number of servers to create"
-  default = "3"
+  default = "5"
 }
 
 variable "createoption" {
