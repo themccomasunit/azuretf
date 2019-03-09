@@ -138,7 +138,7 @@ resource "azurerm_lb_backend_address_pool" "pool_myvms" {
 
 #Create Public Ip for servers
 resource "azurerm_public_ip" "ip_ext_myvms" {
-  count               = "3"
+  count               = "5"
   name                = "ipExt${var.environment}${count.index}"
   location            = "${azurerm_resource_group.MyVMs.location}"
   resource_group_name = "${azurerm_resource_group.MyVMs.name}"
