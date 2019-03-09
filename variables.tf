@@ -1,7 +1,7 @@
 
 variable "environment" {
   type= "string"
-  default = "mccomas"
+  default = "myvms"
 }
 
 

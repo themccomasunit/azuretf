@@ -8,7 +8,7 @@ provider "azurerm" {
 
 # Create a resource group
 resource "azurerm_resource_group" "MyVMs" {
-  name     = "rg_${var.environment}"
+  name     = "${var.environment}"
   location = "${var.location}"
 
   tags {
