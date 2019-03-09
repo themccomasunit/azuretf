@@ -1,7 +1,7 @@
 
 variable "environment" {
   type= "string"
-  default = "tgo2"
+  default = "mccomas"
 }
 
 
@@ -13,7 +13,7 @@ variable "location" {
 
 variable "servercount" {
   description = "number of servers to create"
-  default = "3"
+  default = "2"
 }
 
 variable "createoption" {
